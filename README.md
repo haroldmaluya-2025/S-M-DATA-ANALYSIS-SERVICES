@@ -66,14 +66,13 @@ nav a:hover{
 
 /* HERO */
 .hero{
-  min-height:10vh;
+  min-height:70vh;
   display:flex;
   align-items:center;
   justify-content:center;
   text-align:center;
-  padding:1px;
+  padding:60px 20px;
 }
-
 .hero h1{
   font-size:30px;
   margin-bottom:10px;
@@ -82,7 +81,7 @@ nav a:hover{
 
 .hero p{
   font-size:15px;
-  max-width:75x;
+  max-width:750px;
   margin:auto;
   line-height:1.7;
   animation:fadeUp 1.5s ease;
@@ -421,11 +420,12 @@ form{
 }
 input, textarea{
   width:100%;
-  padding:110px;
+  padding:12px;
   margin-bottom:15px;
   border:none;
   border-radius:10px;
 }
+
 form button{
   width:50%;
   padding:10px;
@@ -438,12 +438,12 @@ form button{
 .info{
   line-height:2;
 }
-
 iframe{
-  width:50%;
-  height:300px;
+  width:100%;
+  max-width:900px;
+  height:350px;
   border-radius:20px;
-  margin-top:10px;
+  margin-top:20px;
   border:none;
 }
 
