@@ -491,6 +491,7 @@ footer{
     <a href="#services">Services</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
+    <a href="#packages">Packages</a>
   </nav>
 </header>
 <section class="hero" id="home">
@@ -524,53 +525,54 @@ footer{
       <h3>Automation & Manufacturing Support</h3>
       <p>Digital tools to improve productivity and operational efficiency.</p>
 </div>
-<section id="pricing" class="pricing-section">
+<section id="packages" class="packages-section">
   <h2>Our Packages</h2>
-  <p class="pricing-sub">Choose the plan that fits your needs</p>
-  <div class="pricing-grid"><
-    !-- ST
-ARTED -->
-    <div class="pricing-card">
+  <p class="subtitle">Choose the plan that fits your needs</p>
+
+  <div class="packages-grid">
+    <
+    !--
+  STARTED -->
+    <div class="package-card">
       <h3>Started</h3>
-      <p class="price">PHP 99</p>
-      <p class="tag">Ideal for Beginners</p>
+      <div class="package-price">PHP 99</div>
+      <div class="package-tag">Ideal for Beginners</div>
       <ul>
         <li>✔ Basic website setup</li>
         <li>✔ Simple contact form</li>
         <li>✔ Mobile-friendly design</li>
         <li>✔ Email support</li>
       </ul>
-      <a href="#gcash-payment" class="pricing-btn">Choose Started</a>
+      <a href="#gcash-payment" class="package-btn">Choose Started</a>
     </div>
-    <!
-    -- PLUS -->
-    <div class="pricing-card">
+    <
+    !-- PLUS -->
+    <div class="package-card">
       <h3>Plus</h3>
-      <p class="price">PHP 299</p>
-      <p class="tag">Best for Average Users</p>
+      <div class="package-price">PHP 299</div>
+      <div class="package-tag">Best for Average Users</div>
       <ul>
         <li>✔ Everything in Started</li>
         <li>✔ Data analysis setup</li>
         <li>✔ Google Maps integration</li>
         <li>✔ Priority support</li>
       </ul>
-  <a href="#gcash-payment" class="pricing-btn">Choose Plus</a>
+      <a href="#gcash-payment" class="package-btn">Choose Plus</a>
     </div>
-    <!
-    --
-  TURBO -->
-    <div class="pricing-card popular">
-      <span class="badge">Most Popular</span>
+    <!-
+    - TURBO -->
+    <div class="package-card popular">
+      <span class="popular-badge">Most Popular</span>
       <h3>Turbo</h3>
-      <p class="price">PHP 499</p>
-      <p class="tag">Best Value Package</p>
+      <div class="package-price">PHP 499</div>
+      <div class="package-tag">Best Value Package</div>
       <ul>
-  <li>✔ Everything in Plus</li>
-  <li>✔ Automation tools</li>
- <li>✔ Advanced analytics</li>
-  <li>✔ Priority + consultation</li>
-</ul>
-   <a href="#gcash-payment" class="pricing-btn">Choose Turbo</a>
+        <li>✔ Everything in Plus</li>
+        <li>✔ Automation tools</li>
+        <li>✔ Advanced analytics</li>
+        <li>✔ Priority consultation</li>
+      </ul>
+      <a href="#gcash-payment" class="package-btn">Choose Turbo</a>
     </div>
   </div>
 </section>
