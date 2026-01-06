@@ -3,6 +3,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>S & M Data Analysis Services</title>
+
 <style>
 :root{
   --primary:#00c6ff;
@@ -66,13 +67,14 @@ nav a:hover{
 
 /* HERO */
 .hero{
-  min-height:70vh;
+  min-height:10vh;
   display:flex;
   align-items:center;
   justify-content:center;
   text-align:center;
-  padding:60px 20px;
+  padding:1px;
 }
+
 .hero h1{
   font-size:30px;
   margin-bottom:10px;
@@ -81,7 +83,7 @@ nav a:hover{
 
 .hero p{
   font-size:15px;
-  max-width:750px;
+  max-width:75x;
   margin:auto;
   line-height:1.7;
   animation:fadeUp 1.5s ease;
@@ -253,14 +255,17 @@ h2{
     transform: translateY(0);
   }
 }
+
 @keyframes glow {
   0% { box-shadow: 0 0 0 rgba(255,212,59,0.4); }
   50% { box-shadow: 0 0 35px rgba(255,212,59,0.9); }
   100% { box-shadow: 0 0 0 rgba(255,212,59,0.4); }
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 /* POPULAR CARD */
 .popular {
   border: 2px solid #f9ca24;
@@ -293,6 +298,7 @@ html {
   animation: gradientMove 12s ease infinite;
   color: #fff;
 }
+
 /* Floating glow overlay */
 .about-animated::before {
   content: "";
@@ -309,6 +315,7 @@ html {
   );
   animation: glowFloat 18s linear infinite;
 }
+
 /* Content animation */
 .about-content {
   position: relative;
@@ -317,10 +324,12 @@ html {
   text-align: center;
   animation: fadeUp 1.4s ease forwards;
 }
+
 .about-content h2 {
   font-size: 42px;
   margin-bottom: 25px;
 }
+
 .about-content p {
   font-size: 18px;
   line-height: 1.8;
@@ -333,6 +342,7 @@ html {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+
 @keyframes glowFloat {
   0% { transform: translate(0, 0); }
   50% { transform: translate(40px, 40px); }
@@ -350,6 +360,7 @@ html {
   }
 }
 /* === ANIMATED AUTOMATION BACKGROUND === */
+
 #contact {
   position: relative;
   padding: px 10px;
@@ -358,7 +369,9 @@ html {
   background: linear-gradient(135deg, #3d41b6, #a31484);
   overflow: auto;
 }
+
 /* Moving grid */
+
 
 /* Floating light waves */
 #contact::after {
@@ -370,11 +383,13 @@ html {
     radial-gradient(circle at 70% 60%, rgba(255,255,255,0.15), transparent 50%);
   animation: glowMove 18s ease-in-out infinite alternate;
 }
+
 /* Keep content above animation */
 #contact > * {
   position: relative;
   z-index: 1;
 }
+
 /* Animations */
 @keyframes gridMove {
   from {
@@ -405,6 +420,7 @@ html {
   border-radius: 8px;
   border: 1px solid #ccc;
 }
+
 #contact button {
   background: #f9ca24;
   border: none;
@@ -418,9 +434,10 @@ form{
   padding:20px;
   border-radius:10px;
 }
+
 input, textarea{
   width:100%;
-  padding:12px;
+  padding:110px;
   margin-bottom:15px;
   border:none;
   border-radius:10px;
@@ -438,12 +455,12 @@ form button{
 .info{
   line-height:2;
 }
+
 iframe{
-  width:100%;
-  max-width:900px;
-  height:350px;
+  width:50%;
+  height:300px;
   border-radius:20px;
-  margin-top:20px;
+  margin-top:10px;
   border:none;
 }
 
@@ -480,7 +497,9 @@ footer{
 }
 </style>
 </head>
+
 <body>
+
 <header>
   <div class="logo">
     <img src="logo.png.png" alt="S & M Data Analysis Services">
@@ -491,9 +510,9 @@ footer{
     <a href="#services">Services</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
-    <a href="#packages">Packages</a>
   </nav>
 </header>
+
 <section class="hero" id="home">
   <div>
     <img src="logo.png.png" >
@@ -506,6 +525,7 @@ footer{
     <button onclick="document.getElementById('contact').scrollIntoView()">Contact Us</button>
   </div>
 </section>
+
 <section id="services">
   <h2>Our Services</h2>
   <div class="services">
@@ -525,72 +545,81 @@ footer{
       <h3>Automation & Manufacturing Support</h3>
       <p>Digital tools to improve productivity and operational efficiency.</p>
 </div>
-<section id="packages" class="packages-section">
-  <h2>Our Packages</h2>
-  <p class="subtitle">Choose the plan that fits your needs</p>
 
-  <div class="packages-grid">
-    <
-    !--
-  STARTED -->
-    <div class="package-card">
+
+</section>
+<section id="pricing" class="pricing-section">
+
+  <h2>Our Packages</h2>
+  <p class="pricing-sub">Choose the plan that fits your needs</p>
+
+  <div class="pricing-grid">
+
+    <!-- STARTED -->
+    <div class="pricing-card">
       <h3>Started</h3>
-      <div class="package-price">PHP 99</div>
-      <div class="package-tag">Ideal for Beginners</div>
+      <p class="price">PHP 99</p>
+      <p class="tag">Ideal for Beginners</p>
       <ul>
         <li>✔ Basic website setup</li>
         <li>✔ Simple contact form</li>
         <li>✔ Mobile-friendly design</li>
         <li>✔ Email support</li>
       </ul>
-      <a href="#gcash-payment" class="package-btn">Choose Started</a>
+      <a href="#gcash-payment" class="pricing-btn">Choose Started</a>
     </div>
-    <
-    !-- PLUS -->
-    <div class="package-card">
+
+    <!-- PLUS -->
+    <div class="pricing-card">
       <h3>Plus</h3>
-      <div class="package-price">PHP 299</div>
-      <div class="package-tag">Best for Average Users</div>
+      <p class="price">PHP 299</p>
+      <p class="tag">Best for Average Users</p>
       <ul>
         <li>✔ Everything in Started</li>
         <li>✔ Data analysis setup</li>
         <li>✔ Google Maps integration</li>
         <li>✔ Priority support</li>
       </ul>
-      <a href="#gcash-payment" class="package-btn">Choose Plus</a>
+  <a href="#gcash-payment" class="pricing-btn">Choose Plus</a>
     </div>
-    <!-
-    - TURBO -->
-    <div class="package-card popular">
-      <span class="popular-badge">Most Popular</span>
+
+    <!-- TURBO -->
+    <div class="pricing-card popular">
+      <span class="badge">Most Popular</span>
       <h3>Turbo</h3>
-      <div class="package-price">PHP 499</div>
-      <div class="package-tag">Best Value Package</div>
+      <p class="price">PHP 499</p>
+      <p class="tag">Best Value Package</p>
       <ul>
         <li>✔ Everything in Plus</li>
         <li>✔ Automation tools</li>
         <li>✔ Advanced analytics</li>
-        <li>✔ Priority consultation</li>
+        <li>✔ Priority + consultation</li>
       </ul>
-      <a href="#gcash-payment" class="package-btn">Choose Turbo</a>
+   <a href="#gcash-payment" class="pricing-btn">Choose Turbo</a>
     </div>
+
   </div>
+
 </section>
 <section id="gcash-payment" class="gcash-section">
   <h2>Pay via GCash</h2>
   <p class="gcash-amount">Selected Package</p>
+
   <div class="gcash-card">
     <p><strong>GCash Number</strong></p>
     <a href="tel:09639025445" class="gcash-number">
       0963 902 5445
     </a>
-<p><strong>Account Name</strong></p>
-<p>Ryu Samryoung</p>
-<p class="note">
- Please send the exact amount and include your name in the message.
-</p>
-</div>
+
+    <p><strong>Account Name</strong></p>
+    <p>Ryu Samryoung</p>
+
+    <p class="note">
+      Please send the exact amount and include your name in the message.
+    </p>
+  </div>
 </section>
+
 <section id="about" class="about-animated">
   <div class="about-content">
     <h2>About Us</h2>
@@ -602,30 +631,40 @@ footer{
     </p>
   </div>
 </section>
+
+
 <section id="contact">
   <h2>Contact Us</h2>
   <p>Send us a message and it will go directly to our Gmail.</p>
+
   <form action="https://formspree.io/f/meeowwbq" method="POST">
-   <input
+
+    <input
       type="text"
       name="name"
       placeholder="Your Name"
-      required >
-    <input 
+      required
+    >
+
+    <input
       type="email"
       name="email"
       placeholder="Your Email"
-      required>
-<textarea
-name="message"
-placeholder="Your Message"
-rows="5"
-required
-  ></textarea>
-  <input type="hidden" name="_subject" value="New Contact Message - S & M Data Analysis Services">
-   <button type="submit">Send Message</button>
+      required
+    >
+    <textarea
+      name="message"
+      placeholder="Your Message"
+      rows="5"
+      required
+    ></textarea>
+    <input type="hidden" name="_subject" value="New Contact Message - S & M Data Analysis Services">
+
+    <button type="submit">Send Message</button>
+
   </form>
-  <div class="info">
+
+    <div class="info">
       <p><strong>Email:</strong> silverism777@gmail.com</p>
       <p><strong>Business Representate:</strong> Mr. Ryu Samryoung</p>
       <p><strong>Location:</strong> Agujo, Daanbantayan, Cebu, Philippines</p>
@@ -642,10 +681,13 @@ style="border:0;"
 allowfullscreen="" 
 loading="lazy" 
 referrerpolicy="no-referrer-when-downgrade">
+   
 </iframe>
     </div>
   </div>
 </section>
+
 <footer>
   © 2025 S & M Data Analysis Services | Cebu, Philippines
 </footer>
+
