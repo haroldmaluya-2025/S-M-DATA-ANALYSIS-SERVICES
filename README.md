@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -255,17 +254,14 @@ h2{
     transform: translateY(0);
   }
 }
-
 @keyframes glow {
   0% { box-shadow: 0 0 0 rgba(255,212,59,0.4); }
   50% { box-shadow: 0 0 35px rgba(255,212,59,0.9); }
   100% { box-shadow: 0 0 0 rgba(255,212,59,0.4); }
 }
-
 html {
   scroll-behavior: smooth;
 }
-
 /* POPULAR CARD */
 .popular {
   border: 2px solid #f9ca24;
@@ -298,7 +294,6 @@ html {
   animation: gradientMove 12s ease infinite;
   color: #fff;
 }
-
 /* Floating glow overlay */
 .about-animated::before {
   content: "";
@@ -315,7 +310,6 @@ html {
   );
   animation: glowFloat 18s linear infinite;
 }
-
 /* Content animation */
 .about-content {
   position: relative;
@@ -324,12 +318,10 @@ html {
   text-align: center;
   animation: fadeUp 1.4s ease forwards;
 }
-
 .about-content h2 {
   font-size: 42px;
   margin-bottom: 25px;
 }
-
 .about-content p {
   font-size: 18px;
   line-height: 1.8;
@@ -342,7 +334,6 @@ html {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
-
 @keyframes glowFloat {
   0% { transform: translate(0, 0); }
   50% { transform: translate(40px, 40px); }
@@ -360,7 +351,6 @@ html {
   }
 }
 /* === ANIMATED AUTOMATION BACKGROUND === */
-
 #contact {
   position: relative;
   padding: px 10px;
@@ -369,9 +359,7 @@ html {
   background: linear-gradient(135deg, #3d41b6, #a31484);
   overflow: auto;
 }
-
 /* Moving grid */
-
 
 /* Floating light waves */
 #contact::after {
@@ -383,13 +371,11 @@ html {
     radial-gradient(circle at 70% 60%, rgba(255,255,255,0.15), transparent 50%);
   animation: glowMove 18s ease-in-out infinite alternate;
 }
-
 /* Keep content above animation */
 #contact > * {
   position: relative;
   z-index: 1;
 }
-
 /* Animations */
 @keyframes gridMove {
   from {
@@ -420,7 +406,6 @@ html {
   border-radius: 8px;
   border: 1px solid #ccc;
 }
-
 #contact button {
   background: #f9ca24;
   border: none;
@@ -434,7 +419,6 @@ form{
   padding:20px;
   border-radius:10px;
 }
-
 input, textarea{
   width:100%;
   padding:110px;
@@ -442,7 +426,6 @@ input, textarea{
   border:none;
   border-radius:10px;
 }
-
 form button{
   width:50%;
   padding:10px;
@@ -497,9 +480,7 @@ footer{
 }
 </style>
 </head>
-
 <body>
-
 <header>
   <div class="logo">
     <img src="logo.png.png" alt="S & M Data Analysis Services">
@@ -512,7 +493,6 @@ footer{
     <a href="#contact">Contact</a>
   </nav>
 </header>
-
 <section class="hero" id="home">
   <div>
     <img src="logo.png.png" >
@@ -525,7 +505,6 @@ footer{
     <button onclick="document.getElementById('contact').scrollIntoView()">Contact Us</button>
   </div>
 </section>
-
 <section id="services">
   <h2>Our Services</h2>
   <div class="services">
@@ -545,16 +524,12 @@ footer{
       <h3>Automation & Manufacturing Support</h3>
       <p>Digital tools to improve productivity and operational efficiency.</p>
 </div>
-
-
-</section>
 <section id="pricing" class="pricing-section">
-
   <h2>Our Packages</h2>
   <p class="pricing-sub">Choose the plan that fits your needs</p>
-
-  <div class="pricing-grid">
- <!-- STARTED -->
+  <div class="pricing-grid"><
+    !-- ST
+ARTED -->
     <div class="pricing-card">
       <h3>Started</h3>
       <p class="price">PHP 99</p>
@@ -567,7 +542,8 @@ footer{
       </ul>
       <a href="#gcash-payment" class="pricing-btn">Choose Started</a>
     </div>
-    <!-- PLUS -->
+    <!
+    -- PLUS -->
     <div class="pricing-card">
       <h3>Plus</h3>
       <p class="price">PHP 299</p>
@@ -580,7 +556,9 @@ footer{
       </ul>
   <a href="#gcash-payment" class="pricing-btn">Choose Plus</a>
     </div>
-    <!--TURBO -->
+    <!
+    --
+  TURBO -->
     <div class="pricing-card popular">
       <span class="badge">Most Popular</span>
       <h3>Turbo</h3>
@@ -599,7 +577,6 @@ footer{
 <section id="gcash-payment" class="gcash-section">
   <h2>Pay via GCash</h2>
   <p class="gcash-amount">Selected Package</p>
-
   <div class="gcash-card">
     <p><strong>GCash Number</strong></p>
     <a href="tel:09639025445" class="gcash-number">
@@ -670,5 +647,3 @@ referrerpolicy="no-referrer-when-downgrade">
 <footer>
   © 2025 S & M Data Analysis Services | Cebu, Philippines
 </footer>
-</body>
-</html>
